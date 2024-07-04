@@ -1,0 +1,123 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #444; /* Updated text color for better readability */
+    font-size: 16px; /* Updated font size for better readability */
+}
+
+/* Container for forms and tables */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Button styling */
+button, input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Added transition for interactive elements */
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Added engaging hover effect */
+}
+
+/* Form field styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], select, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: background-color 0.3s, color 0.3s; /* Added transition for interactive elements */
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.05); /* Added engaging hover effect */
+}
+
+/* Additional CSS modifications for consistent UI/UX across pages */
+/* Add transition animation for interactive elements */
+button, input[type="submit"], a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Adjust text color and size for better readability */
+body {
+    color: #444;
+    font-size: 16px;
+}
+
+/* Add more engaging hover effects */
+button:hover, input[type="submit"]:hover, a:hover {
+    transform: scale(1.05);
+}
+
+/* Consider adding parallax effect or subtle animations */
+
+.nav-item.active .nav-link {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.nav-item.active {
+    border-radius: 10px; /* Rounded border for active nav items */
+}
